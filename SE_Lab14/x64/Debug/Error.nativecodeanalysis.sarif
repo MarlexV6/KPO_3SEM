@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/kpo/kpo_3_sem/se_lab14/se_lab14/error.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "88dae766fff604898e5e4873daabf635a367977774e39598c6de6183fb6dc394"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kpo/kpo_3_sem/se_lab14/se_lab14/stdafx.h"
+          },
+          "hashes": {
+            "sha-256": "9e194365cfda639ad8bbd7e563d67830c4a6e99aa65cc70d53695412d6e610c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kpo/kpo_3_sem/se_lab14/se_lab14/error.h"
+          },
+          "hashes": {
+            "sha-256": "0f67e08607265a649c2cdc5a79aaf7a43fdea235a2e24f20e7b97f57a5ce50c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kpo/kpo_3_sem/se_lab14/se_lab14/parm.h"
+          },
+          "hashes": {
+            "sha-256": "fc2b5c1c850cdef655d8a2f824a6ff3e3ec8ae31ae0124f22a38d078a1c97165"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kpo/kpo_3_sem/se_lab14/se_lab14/log.h"
+          },
+          "hashes": {
+            "sha-256": "2d60a4340151fba5a45b34347e48cb9d295f37fe6b6dac0188e8c3da42da1e4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kpo/kpo_3_sem/se_lab14/se_lab14/in.h"
+          },
+          "hashes": {
+            "sha-256": "98a41a867a609134f9689f813ac838bb158b04531c0385e62db4ff736214fe13"
+          }
+        }
+      ]
+    }
+  ]
+}

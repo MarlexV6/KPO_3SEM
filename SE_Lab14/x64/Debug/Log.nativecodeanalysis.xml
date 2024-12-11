@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+      <FILENAME>Log.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "date".</DESCRIPTION>
+    <FUNCTION>Log::WriteLog</FUNCTION>
+    <DECORATED>?WriteLog@Log@@YAXULOG@1@@Z</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+        <FILENAME>Log.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"date" является массивом из 50 элементов (50 байт)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+        <FILENAME>Log.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+        <FILENAME>Log.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+        <FILENAME>Log.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+        <FILENAME>Log.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\KPO\KPO_3_sem\SE_Lab14\SE_Lab14\</FILEPATH>
+        <FILENAME>Log.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "date[99]" (доступный для записи диапазон: от 0 до 49)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
